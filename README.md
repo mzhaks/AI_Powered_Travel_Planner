@@ -18,7 +18,7 @@ This Repository holds the implementation of PS of high prep SDE track IIT-BHU by
        - **routes/**: Directory for defining API routes. 
        - **controllers/**: Directory for handling business logic.
        - **models/**: Directory for database model.
-* In **ml/**, the code is organized into separate files for different machine learning tasks (e.g., train delay prediction, flight price prediction) and relevant data and model storage directories.
+* In **ml/**, the code is organized into separate files for different machine learning tasks (e.g., flight price prediction) and relevant data and model storage directories.
     - **src/**: The main directory for your machine learning code.
        - **flight_price_prediction.py**: File for flight price prediction ML code.
     - **data/**: Directory for storing input data for ML models.
