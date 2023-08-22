@@ -23,4 +23,4 @@ This Repository holds the implementation of PS of high prep SDE track IIT-BHU by
        - **flight_price_prediction.py**: File for flight price prediction ML code.
     - **data/**: Directory for storing input data for ML models.
        - **Flight_prediction_data** provided in the PS have been uploaded in this directory. 
-* The **.gitignore** files help to exclude unnecessary files and directories from version control.
+* The **.gitignore** files help to exclude unnecessary files and directories from version control(i.e getting tracked by git).
