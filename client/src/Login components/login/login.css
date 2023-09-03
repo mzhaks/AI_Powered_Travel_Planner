@@ -1,0 +1,27 @@
+.login{
+    width: 400px;
+    background: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+ }
+ .login > input{
+    border-radius: 10px;
+    border: 2px solid white;
+    outline: none;
+    color: black;
+    margin: 0.5rem 0;
+    width: 100%;
+    font-size: 1rem;
+ }
+
+ .login > .button {
+    background: blue;
+    border: 1px solid blue;
+    color: white;
+    font-size: 1.25rem;
+    margin: 0.5rem 0 ;
+    border-radius: 8px;
+    outline: none;
+ }
