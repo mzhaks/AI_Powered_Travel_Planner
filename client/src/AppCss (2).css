@@ -1,0 +1,255 @@
+.App {
+  text-align: center;
+}
+.head{
+  background-color: rgba(235, 107, 15, 0.6);
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.container{
+  position: absolute;
+  width: 50%;
+    height: 50%;
+   
+    bottom: 0;
+    right: 0;
+   
+    background: linear-gradient(45deg, transparent 4px, #84dc21cd , #f39508);
+    border-radius: 50%  50% 0 50%;
+    transform: scale() ;
+    z-index: -1;
+
+
+}
+.text1{
+  text-align: left;
+  position: relative;
+  margin-top: 40px;
+  margin-left: 40px;
+  font-size: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #bf184d;
+}
+.text2{
+  text-align: left;
+  position: relative;
+  margin-top: -30px;
+  margin-left: 40px;
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #bf184d;
+}
+.text3{
+  text-align: left;
+  position: relative;
+  margin-top: -40px;
+
+  margin-left: 40px;
+  font-size: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #bf184d;
+}
+.cc{
+  margin-left: 40px;
+}
+.box {
+  width: 350px;
+  height: 70px;
+  background-color: #ecdde73e;
+  
+  border-radius: 14px; 
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+   margin: 10px;
+   padding: 10px;
+   
+  display: flex;
+}
+#card{
+  margin-left: 20px;
+}
+h5{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+
+.image-container {
+ 
+  max-width: 45%;
+  
+    overflow: hidden;
+   
+    float: left;
+}
+
+.image-container img {
+  width: 100%;
+  
+
+}
+
+
+.wave svg {
+  position: absolute;
+  left: 0;
+bottom: 0;
+
+}
+.wave1 svg {
+  position: absolute;
+  left: 0;
+bottom: 0;
+width: 100%;
+height: auto;
+z-index: -1;
+
+}
+.login-page {
+ 
+width:100%;
+position:absolute;
+top: 40%;
+right: 15%;
+
+transform: translate(-50%,-50%);  
+  /* border: 1px solid #ccc; */
+  padding: 20px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.login-page h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+  margin-bottom: 35px;
+  margin-left: 60px;
+
+  color: #1788f9;
+  position: relative;
+}
+.signup-h1 h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  margin-bottom: 35px;
+  margin-left: 95px;
+  /* #a716c1 */
+  color: #a716c1;
+  position: relative;
+}
+
+.signupbox {
+  position: relative;
+  width: 350px;
+  height: 65px;
+  background-color: #ecc2f93e;
+  
+  border-radius: 14px; 
+  box-shadow: 5px 5px 10px rgba(199, 149, 149, 0.3);
+   margin: 10px;
+   padding-left: 35px;
+   padding-bottom: 9px;
+  display: flex;
+}
+.loginbox {
+  position: relative;
+  width: 350px;
+  height: 65px;
+  background-color: #c2f7f93e;
+  
+  border-radius: 14px; 
+  box-shadow: 5px 5px 10px rgba(149, 199, 197, 0.3);
+   margin: 10px;
+   padding-left: 35px;
+   padding-bottom: 9px;
+  display: flex;
+}
+
+.user svg{
+  position: absolute;
+  
+  left: 15%;
+  top: 23%;
+
+}
+.password svg{
+  position: absolute;
+  
+  left: 15%;
+  top: 53%;
+
+}
+.remember{
+padding: 10px;
+font-size: 15px;
+display: inline-block;
+position: relative;
+margin-right: -100px;
+}
+
+.remember a{
+margin-left: 90px;
+
+}
+.eye svg{
+  position: absolute;
+  
+  left: 115%;
+  top: 53%;
+
+}
+.eye1 svg{
+  position: absolute;
+  
+  left: 115%;
+  top: 51%;
+
+}
+.eye2 svg{
+  position: absolute;
+  
+  left: 115%;
+  top: 65%;
+
+}
+.register{
+  margin-right: -80px;
+padding-left: 40px;
+}
+.register a{
+  cursor: pointer;
+}
+.loginbutton{
+  width: 360px;
+ 
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
